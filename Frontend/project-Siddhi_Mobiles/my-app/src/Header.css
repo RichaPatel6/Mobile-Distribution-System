@@ -1,0 +1,54 @@
+.navbar {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center; /* Center the navigation items */
+	align-items: center;
+	font-size: 20px;
+	padding-top: 9px;
+}
+
+.nav-item {
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+.icons {
+	display: flex;
+	align-items: flex-start; /* Align icons to the top */
+}
+
+.icon {
+	color: white;
+	font-size: 1.5rem;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.nav-item:hover,
+.icon:hover {
+	text-decoration: underline;
+	color: blue;
+}
+.image-container {
+	position: absolute;
+	top: 0;
+	align-items: center;
+	padding-top: 8px;
+}
+
+.image {
+	max-width: 100px; /* Adjust the size as needed */
+	max-height: 100px; /* Adjust the size as needed */
+	object-fit: contain;
+}
